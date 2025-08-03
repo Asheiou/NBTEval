@@ -1,0 +1,11 @@
+name: NBTEval
+version: '1.0-SNAPSHOT'
+main: cymru.asheiou.nbteval.NBTEval
+api-version: '1.21'
+commands:
+  nbt:
+    usage: /<command>
+    permission: nbteval.eval
+permissions:
+  nbteval.eval:
+    default: op
